@@ -11,7 +11,7 @@ def translator(user_string):
     j = 0
     for _str in user_string:
         # File path which consists of Abbreviations.
-        fileName = "C:\\Users\\risha\\Desktop\\slang.txt"
+        fileName = "slang.txt"
         # File Access mode [Read Mode]
         accessMode = "r"
         with open(fileName, accessMode) as myCSVfile:
